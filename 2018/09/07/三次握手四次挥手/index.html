@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>关于世界的书</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="c经典试题">
+  <meta name="description" content="三次握手四次挥手">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于世界的书">
-<meta property="og:url" content="http://yoursite.com/2018/09/06/我的博客/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/09/07/三次握手四次挥手/index.html">
 <meta property="og:site_name" content="关于世界的书">
-<meta property="og:description" content="c经典试题">
+<meta property="og:description" content="三次握手四次挥手">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-07T10:38:21.839Z">
+<meta property="og:updated_time" content="2018-09-07T12:32:52.308Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于世界的书">
-<meta name="twitter:description" content="c经典试题">
+<meta name="twitter:description" content="三次握手四次挥手">
   
     <link rel="alternative" href="/atom.xml" title="关于世界的书" type="application/atom+xml">
   
@@ -154,16 +154,18 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的博客" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-三次握手四次挥手" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="c经典试题"><a href="#c经典试题" class="headerlink" title="c经典试题"></a>c经典试题</h1><a id="more"></a>
-<p>1、int a[10]={1,2,3,4,5,6,7,8,9,0};<br>   int <em>p=&amp;a[1];<br>   则p[6]等于8<br>2、整数数组清零：bzero(),memset()。<br>3、sizeof();<a href="http://lib.csdn.net/base/softwaretest" target="_blank" rel="noopener">测试</a>变量所占地址的字节数<br>4、 main()<br> {<br>  char </em>str[]={“ab”,”cd”,”ef”,”gh”,”ij”,”kl”};<br>  char <em>t;<br>  t=(str+4)[-1];<br>  printf(“%s”,t);<br> }则显示”gh”<br>5、小端：低位字节数据存储在低地址<br> 大端：高位字节数据存储在低地址<br> 例如：int a=0x12345678;(a首地址为0x2000)<br> 0x2000  0x2001  0x2002  0x2003<br>  0x12    0x34    0x56    0x78      大端格式<br>6、异步IO和同步IO区别<br> 如果是同步IO，当一个IO操作执行时，应用程序必须等待，直到此IO执行完，相反，异步IO操作在后台运行，<br> IO操作和应用程序可以同时运行，提高系统性能，提高IO流量； 在同步文件IO中，线程启动一个IO操作然后就立即进入等待状态，直到IO操作完成后才醒来继续执行，而异步文件IO中，<br> 线程发送一个IO请求到内核，然后继续处理其他事情，内核完成IO请求后，将会通知线程IO操作完成了。<br>7、用变量a定义<br> 一个整型数   int a;<br> 一个指向整型数的指针  int </em>a;<br> 一个指向指针的指针，它指向的指针式指向一个整型数  int *<em>a;<br> 一个有10个整型数的数组   int a[10];<br> 一个有10指针的数组，该指针是指向一个整型数  int </em>a[10];<br> 一个指向有10个整型数数组的指针   int (<em>a)[10];<br> 一个指向函数的指针，该函数有一个整型数参数并返回一个整型数   int (</em>a)(int);<br> 一个有10个指针的数组，该指针指向一个函数，该函数有一个整型数参数并返回一个整型  int (<em>a[10])(int);<br>8、int foo(void)<br>{<br> int i;<br> char c=0x80;<br> i=c;<br> if(i&gt;0)<br>  return 1;<br> return 2;<br>}返回值为2；因为i=c=-128;如果c=0x7f,则i=c=127。<br>9、a=b</em>2;a=b/4;a=b%8;a=b/8<em>8+b%4;a=b</em>15;效率最高的<a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">算法</a><br> a=b<em>2 -&gt; a=b&lt;&lt;1;<br> a=b/4 -&gt; a=b&gt;&gt;2;<br> a=b%8 -&gt; a=b&7;<br> a=b/8</em>8+b%4 -&gt; a=((b&gt;&gt;3)&lt;&lt;3)+(b&amp;3)<br> a=b*15 -&gt; a=(b&lt;&lt;4)-b<br>10、c关键字</p>
-<p> c的关键字共32个<br> <em>数据类型关键字（12）<br> char,short,int,long,float,double,unsigned,signed,union,enum,void,struct
- </em>控制语句关键字（12）<br> if,else,switch,case,default,for,do,while,break,continue,goto,return<br> <em>存储类关键字（5）<br> auto,extern,register,static,const
- </em>其他关键字（3）<br> sizeof,typedef,volatile</p>
+        <h1 id="三次握手四次挥手"><a href="#三次握手四次挥手" class="headerlink" title="三次握手四次挥手"></a>三次握手四次挥手</h1><a id="more"></a>
+<p>三次握手过程：</p>
+<p>第一次握手：起初两端都处于CLOSED关闭状态，Client将标志位SYN置为1，随机产生一个值seq=x，并将该数据包发送给Server，Client进入SYN-SENT状态，等待Server确认；</p>
+<p>第二次握手：Server收到数据包后由标志位SYN=1得知Client请求建立连接，Server将标志位SYN和ACK都置为1，ack=x+1，随机产生一个值seq=y，并将该数据包发送给Client以确认连接请求，Server进入SYN-RCVD状态，此时操作系统为该TCP连接分配TCP缓存和变量；</p>
+<p>第三次握手：Client收到确认后，检查ack是否为x+1，ACK是否为1，如果正确则将标志位ACK置为1，ack=y+1，并且此时操作系统为该TCP连接分配TCP缓存和变量，并将该数据包发送给Server，Server检查ack是否为y+1，ACK是否为1，如果正确则连接建立成功，Client和Server进入ESTABLISHED状态，完成三次握手，随后Client和Server就可以开始传输数据。</p>
+<p>四次挥手过程：</p>
+<p>起初A和B处于<strong>ESTABLISHED状态</strong>——A发出连接释放报文段并处于<strong>FIN-WAIT-1状态</strong>——B发出确认报文段且进入<strong>CLOSE-WAIT状态</strong>——A收到确认后，进入<strong>FIN-WAIT-2状态</strong>，等待B的连接释放报文段——B没有要向A发出的数据，B发出连接释放报文段且进入<strong>LAST-ACK状态</strong>——A发出确认报文段且进入<strong>TIME-WAIT状态</strong>——B收到确认报文段后进入<strong>CLOSED状态</strong>——A经过等待计时器时间2MSL后，进入<strong>CLOSED状态</strong>。</p>
 
       
 
@@ -243,7 +245,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/09/06/我的博客/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/09/07/三次握手四次挥手/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -257,15 +259,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/09/07/三次握手四次挥手/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
+    <a href="/2018/09/06/我的博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
