@@ -157,7 +157,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="一本书"><a href="#一本书" class="headerlink" title="一本书"></a>一本书</h1><p><img src="E:\18年照片\5.12学活拓展\122D7000\DSC_8541.jpg" alt=""></p>
+        <h1 id="c经典试题"><a href="#c经典试题" class="headerlink" title="c经典试题"></a>c经典试题</h1><p>1、int a[10]={1,2,3,4,5,6,7,8,9,0};<br>   int <em>p=&amp;a[1];<br>   则p[6]等于8<br>2、整数数组清零：bzero(),memset()。<br>3、sizeof();<a href="http://lib.csdn.net/base/softwaretest" target="_blank" rel="noopener">测试</a>变量所占地址的字节数<br>4、 main()<br> {<br>  char </em>str[]={“ab”,”cd”,”ef”,”gh”,”ij”,”kl”};<br>  char <em>t;<br>  t=(str+4)[-1];<br>  printf(“%s”,t);<br> }则显示”gh”<br>5、小端：低位字节数据存储在低地址<br> 大端：高位字节数据存储在低地址<br> 例如：int a=0x12345678;(a首地址为0x2000)<br> 0x2000  0x2001  0x2002  0x2003<br>  0x12    0x34    0x56    0x78      大端格式<br>6、异步IO和同步IO区别<br> 如果是同步IO，当一个IO操作执行时，应用程序必须等待，直到此IO执行完，相反，异步IO操作在后台运行，<br> IO操作和应用程序可以同时运行，提高系统性能，提高IO流量； 在同步文件IO中，线程启动一个IO操作然后就立即进入等待状态，直到IO操作完成后才醒来继续执行，而异步文件IO中，<br> 线程发送一个IO请求到内核，然后继续处理其他事情，内核完成IO请求后，将会通知线程IO操作完成了。<br>7、用变量a定义<br> 一个整型数   int a;<br> 一个指向整型数的指针  int </em>a;<br> 一个指向指针的指针，它指向的指针式指向一个整型数  int *<em>a;<br> 一个有10个整型数的数组   int a[10];<br> 一个有10指针的数组，该指针是指向一个整型数  int </em>a[10];<br> 一个指向有10个整型数数组的指针   int (<em>a)[10];<br> 一个指向函数的指针，该函数有一个整型数参数并返回一个整型数   int (</em>a)(int);<br> 一个有10个指针的数组，该指针指向一个函数，该函数有一个整型数参数并返回一个整型  int (<em>a[10])(int);<br>8、int foo(void)<br>{<br> int i;<br> char c=0x80;<br> i=c;<br> if(i&gt;0)<br>  return 1;<br> return 2;<br>}返回值为2；因为i=c=-128;如果c=0x7f,则i=c=127。<br>9、a=b</em>2;a=b/4;a=b%8;a=b/8<em>8+b%4;a=b</em>15;效率最高的<a href="http://lib.csdn.net/base/datastructure" target="_blank" rel="noopener">算法</a><br> a=b<em>2 -&gt; a=b&lt;&lt;1;<br> a=b/4 -&gt; a=b&gt;&gt;2;<br> a=b%8 -&gt; a=b&7;<br> a=b/8</em>8+b%4 -&gt; a=((b&gt;&gt;3)&lt;&lt;3)+(b&amp;3)<br> a=b*15 -&gt; a=(b&lt;&lt;4)-b<br>10、c关键字</p>
+<p> c的关键字共32个<br> <em>数据类型关键字（12）<br> char,short,int,long,float,double,unsigned,signed,union,enum,void,struct
+ </em>控制语句关键字（12）<br> if,else,switch,case,default,for,do,while,break,continue,goto,return<br> <em>存储类关键字（5）<br> auto,extern,register,static,const
+ </em>其他关键字（3）<br> sizeof,typedef,volatile</p>
 
       
 
@@ -171,77 +174,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2018/09/06/我的博客/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/09/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2018/09/06/hello-world/" class="archive-article-date">
-  	<time datetime="2018-09-05T18:04:01.568Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/09/06/hello-world/">展开全文 >></a>
         </p>
       
 
